@@ -41,6 +41,7 @@
         data: postData
       }).then((res)=>{
         console.log(res.data)
+        this.$router.push({path:'AdminHome'})
       }).catch((error)=>{
         console.log(error)
       })
